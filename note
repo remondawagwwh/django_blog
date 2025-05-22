@@ -1,0 +1,3 @@
+to create new user..........
+CREATE USER bookadmin WITH PASSWORD '123';
+GRANT ALL PRIVILEGES ON DATABASE books TO bookadmin;
